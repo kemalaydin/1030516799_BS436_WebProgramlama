@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(240,240,240);
+    color: rgb(71,53,25);
+}
+h1{
+    margin-bottom: 1rem;
+}
+.container{
+    width: 40rem;
+    margin: 0 auto;
+}
+.text-center{
+    text-align: center;
+}
+.game-area{
+    display: flex;
+    flex-direction: row;
+    color: rgb(240,240,240);
+}
+.card{
+    border-radius: 5px;
+    width: 100%;
+    min-height: 12rem;
+    background-color: #ccc;
+    border: .06rem solid #000;
+    margin-right: .5rem;
+}
+.card:hover{
+    box-shadow: 0 0 10px #aaa;
+}
+.card:last-child{
+    margin-right: 0;
+}
+.card img{
+    max-width: 100%;
+}
+#message{
+    margin-top: 1rem;
+    padding: .1rem;
+    background-color: aquamarine;
+    color: #000;
+    text-align: center;
+}
+.btn{
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    color: #000;
+    text-decoration: none;
+    margin-top: 20px;
+}
+.m-auto{
+    margin: auto;
+    text-align: center;
+}
+.my{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
